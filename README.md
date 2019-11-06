@@ -27,14 +27,14 @@ Install $project by running:
 Contribute
 ----------
 
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
+- Issue Tracker: https://github.com/CSULB-491/Website/issues
+- Source Code: https://github.com/CSULB-491
 
 Support
 -------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
+If you are struggling, please reach out.
+Either create a GitHub issue or send us an email at ProjectValidator2019@gmail.com
 
 License
 -------
