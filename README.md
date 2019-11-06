@@ -16,9 +16,10 @@ Features
 
 Installation
 ------------
+Verifier is built with the Django Framework. The following steps will install all its prerequisites. Additional information can be found in the link below each step.
    
  1. Download and install python v3.0 or later  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[python downloads](https://www.python.org/downloads/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Python Downloads](https://www.python.org/downloads/)
 
 
  2. Install pip  
@@ -29,7 +30,7 @@ Installation
 
  3. Install Django  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`pip install Django`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[django documentation](https://docs.djangoproject.com/en/2.2/topics/install/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Django Documentation](https://docs.djangoproject.com/en/2.2/topics/install/)
 
 
  4. Clone the appropriate repository  
@@ -38,12 +39,12 @@ Installation
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/CSULB-491/Crawler.git 
 
 
-Contribute
-----------
+   Contribute
+   ----------
 
-its organized in blah repos
-- Issue Tracker: https://github.com/CSULB-491/Website/issues
-- Source Code: https://github.com/CSULB-491
+   Validator is organized into the three main repositories above. Each has their own IssueTracker which follows the format below.
+   - Issue Tracker: https://github.com/CSULB-491/Website/issues
+   - Source Code: https://github.com/CSULB-491
 
 Support
 -------
