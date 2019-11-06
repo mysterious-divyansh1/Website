@@ -39,12 +39,12 @@ Verifier is built with the Django Framework. The following steps will install al
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/CSULB-491/Crawler.git 
 
 
-   Contribute
-   ----------
+Contribute
+----------
 
-   Validator is organized into the three main repositories above. Each has their own IssueTracker which follows the format below.
-   - Issue Tracker: https://github.com/CSULB-491/Website/issues
-   - Source Code: https://github.com/CSULB-491
+Validator is organized into the three main repositories above. Each has their own IssueTracker which follows the format below.
+- Issue Tracker: https://github.com/CSULB-491/Website/issues
+- Source Code: https://github.com/CSULB-491
 
 Support
 -------
