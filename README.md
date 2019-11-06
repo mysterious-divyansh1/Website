@@ -12,10 +12,12 @@ Look how easy it is to use:
 Features
 --------
 
-- Leverages 
-- 
+- Removes clickbait 
+- Negates fake news
 - 100% free with no ads
-- 
+- Completely customizable display
+- Expedites/refines reading process with article insights
+
 
 Installation
 ------------
@@ -34,7 +36,7 @@ Support
 -------
 
 If you are struggling, please reach out.
-Either create a GitHub issue or send us an email at ProjectValidator2019@gmail.com
+Either create a GitHub Issue or send us an email at projectvalidator2019@gmail.com
 
 License
 -------
