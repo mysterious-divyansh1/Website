@@ -18,18 +18,13 @@ Installation
 ------------
 
 Code Dependencies:
-
+    pip install Django
    install project
     1. [python](https://www.python.org/downloads/)
-    2. [pip](https://pip.pypa.io/en/stable/installing/): 
-        adfasdf
-  
-   3. Install django
+    2. [pip](https://pip.pypa.io/en/stable/installing/)
+    3. [django](https://docs.djangoproject.com/en/2.2/topics/install/)
     4. Pull appropriate repository
-    https://www.python.org/downloads/
-    
-    https://docs.djangoproject.com/en/2.2/topics/install/
-    pip install Django
+
 
 Contribute
 ----------
