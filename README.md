@@ -17,12 +17,12 @@ Features
 Installation
 ------------
    
- 1. Download and install python v3.0 or later 
+ 1. Download and install python v3.0 or later  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[python downloads](https://www.python.org/downloads/)
 
 
  2. Install pip  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`python get-pip.py`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`python get-pip.py`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[pip documentation](https://pip.pypa.io/en/stable/installing/)
 
 
@@ -32,6 +32,9 @@ Installation
 
 
  4. Pull appropriate repository
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/CSULB-491/Website
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/CSULB-491/Crawler
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/CSULB-491/NLP
 
 
 Contribute
