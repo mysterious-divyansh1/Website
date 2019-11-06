@@ -41,4 +41,4 @@ Either create a GitHub Issue or send us an email at projectvalidator2019@gmail.c
 License
 -------
 
-The project is licensed under the BSD license.
+The project is licensed under GNU General Public License v3.0
