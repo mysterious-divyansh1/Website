@@ -1,7 +1,7 @@
 Project Validator
 =================
 
-Project Validator is a news aggregator that empowers modern readers to stay credibly informed in an age rife with disinformation. By tracking publisher credibility and article contents through machine learning, Validator is the single solution for agenda free, ad free, honest information.
+Project Validator is a news aggregator that empowers modern readers to stay credibly informed in an age rife with disinformation. By tracking publisher credibility and article contents through machine learning, Validator is the single solution for agenda free, ad-free, honest information.
 
 
 Features
@@ -17,10 +17,10 @@ Features
 Installation
 ------------
 
-Install $project by running:
+Code Dependencies:
 
     install project
-    1. Install python
+    1. [python](https://www.python.org/downloads/)
     2. Install pip
     3. Install django
     4. Pull appropriate repository
