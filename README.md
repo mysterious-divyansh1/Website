@@ -42,8 +42,8 @@ Verifier is built with the Django Framework. The following steps will install al
 Contribute
 ----------
 
-Validator is organized into the three main repositories above. Each has their own IssueTracker which follows the format below.
-- Issue Tracker: https://github.com/CSULB-491/Website/issues
+Validator is organized into the three main repositories above. Each has their own IssueTracker which follows the format below.  
+- Issue Tracker: https://github.com/CSULB-491/Website/issues  
 - Source Code: https://github.com/CSULB-491
 
 Support
