@@ -22,7 +22,8 @@ Installation
 
 
  2. Install pip  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`python get-pip.py`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`python get-pip.py`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[pip documentation](https://pip.pypa.io/en/stable/installing/)
 
 
@@ -31,10 +32,10 @@ Installation
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[django documentation](https://docs.djangoproject.com/en/2.2/topics/install/)
 
 
- 4. Pull appropriate repository
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/CSULB-491/Website  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/CSULB-491/Crawler  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/CSULB-491/NLP  
+ 4. Clone the appropriate repository  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/CSULB-491/Website.git  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/CSULB-491/NLP.git  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/CSULB-491/Crawler.git 
 
 
 Contribute
