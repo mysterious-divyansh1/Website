@@ -18,12 +18,12 @@ Installation
 ------------
    
  1. Download and install python v3.0 or later
-      [python downloads](https://www.python.org/downloads/)
+   [python downloads](https://www.python.org/downloads/)
 
  2. Install pip
-     `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
-     `python get-pip.py`
-     [pip documentation](https://pip.pypa.io/en/stable/installing/)
+   `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
+   `python get-pip.py`
+    [pip documentation](https://pip.pypa.io/en/stable/installing/)
 
  3. Install Django
      pip install Django
