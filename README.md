@@ -17,7 +17,7 @@ Features
 Installation
 ------------
    
- 1. Download and install python v3.0 or later
+ 1. Download and install python v3.0 or later  
    [python downloads](https://www.python.org/downloads/)
 
  2. Install pip
