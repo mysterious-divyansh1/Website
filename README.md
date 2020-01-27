@@ -46,6 +46,12 @@ Validator is organized into the three main repositories above. Each has their ow
 - Issue Tracker: https://github.com/CSULB-491/Website/issues  
 - Source Code: https://github.com/CSULB-491
 
+Merge Process is as follows.
+1. Contributor clones the repo
+2. Verifies functionality locally
+3. Pushes changes and makes a pull request with detailed changes+updates
+4. After 2+ people in charge of that feature verify the functionality it will be merged with master
+
 Support
 -------
 
