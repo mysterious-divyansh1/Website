@@ -33,3 +33,10 @@ class AccountView(View):
 
     def get(self, request):
         return render(request, self.template_name)
+
+
+class SigninView(View):
+    template_name = "signin.html"
+
+    def get(self, request):
+        return render(request, self.template_name)
