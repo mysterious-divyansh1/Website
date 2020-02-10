@@ -1,0 +1,19 @@
+.btn-facebook {
+    background-color: #3b5998;
+    color:white;
+}
+
+.btn-google {
+    background-color: #ea4335;
+    color:white;
+}
+
+.login-btn {
+    background-color: #000000;
+    border-color: #000000;
+    margin-bottom: 5px;
+}
+
+.row {
+    margin-top: 100px;
+}
