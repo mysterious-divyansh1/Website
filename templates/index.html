@@ -1,70 +1,42 @@
-<html lang="en" xmlns:http="http://www.w3.org/1999/xhtml">
-<head>
-    {% load static %}
-    <link href='{% static 'news_app/news_app.css' %}' rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script  >
-    <script src="https://kit.fontawesome.com/888d09bdb5.js" crossorigin="anonymous"></script>
-    {#    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>#}
-    <script>
-    $(document).ready(function(){
-        $('[data-toggle="popover"]').popover();
-    });
-    </script>
+{% extends 'main.html' %}
+{% block content %}
 
-    <title>Validator</title>
-</head>
-<body>
 
-    <nav class="navbar fixed-top navbar-dark bg-dark">
-        <nav class="navbar">
-          <a class="navbar-brand" href="{% url 'index' %}">
-            Validator
-          </a>
-        </nav>
-        <form class="form-inline pt-sm-3">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-primary" type="submit"><i class="fas fa-search"></i></button>
-        </form>
-        <ul class="nav"> <li class="nav-item">
-          <li>
-            <a class="nav-link active" href="{% url 'signin' %}">Sign in</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Account</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'about' %}">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Support</a>
-          </li>
-        </ul>
-
-    </nav>
-    <div class="container main-info">
+         <div class="container main-info">
         <ul class="row">
             <div class="list-group col-9">
                 {% for entry in feeds.entries %}
                     <br>
+                    <!-- read/unread switch -->
                     <a data-toggle="popover" data-html="true" data-trigger="hover" data-content="Source: <b>BBC</b> <br>Bias: <font color='blue'>Left-Center Bias</font><br>Factual Reporting: <font color='green'>High</font><br>" href="{{entry.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="d-flex w-100 justify-content-between">
                           <h5 class="mb-1">{{entry.title}}</h5>
                           <small>{{entry.published}}</small>
                         </div>
-                        <p class="mb-1">{{entry.summary}}</p>
+                        <!--<p class="mb-1">{{entry.summary}}</p>-->
+                     <p class="mb-1">
+
+                            {{entry.summary}}<br>
+                            <form action="{% url 'bookmark' %}" method="post">
+                            {% csrf_token %}
+                            {% with entry.link as link %}
+                            {% if user.is_authenticated %}
+                            {% if link in bookmarks  %}
+                                <button type="submit" class="btn btn-outline-warning" name="link" value="{{entry.link}}" >Remove Bookmark</button>
+                            {% else %}
+                                <button type="submit" class="btn btn-outline-warning" name="link" value="{{entry.link}}" >Bookmark</button>
+                            {% endif %}
+                            {% endif %}
+                            {% endwith %}
+                            </form>
+                        </p>
                     </a>
                 {% endfor %}
             </div>
             <div class="col-3"></div>
         </ul>
     </div>
-    <footer class="footer bg-light">
-      <div class="container">
-        <span class="text-muted">Place footer content here.</span>
-      </div>
-    </footer>
-</body>
-</html>
+
+
+
+{% endblock %}

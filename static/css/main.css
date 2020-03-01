@@ -1,0 +1,83 @@
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+    background-color: whitesmoke;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 30px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+
+}
+
+/* Navbar styles
+--------------------------------*/
+.navbar {
+    background-color: black;
+
+}
+
+.nav-logo {
+        width: 110px;
+
+
+}
+
+.navbar a {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: orange;
+    font-weight: bold;
+}
+
+.main-info{
+    margin-top: 100px;
+}
+
+.dropdown-menu a {
+    color: black;
+}
+
+.navbar-toggler {
+    background-color: whitesmoke;
+}
+
+.navbar-toggler-icon{
+    color: green;
+}
+
+.username {
+    color: red;
+}
+
+.nav-links {
+    margin-right: 10px;
+}
+.fas {
+    color: whitesmoke;
+
+}
+
+
+/* Log in styles
+----------------------------- */
+
+/* Settings styles
+--------------------------
+ */
