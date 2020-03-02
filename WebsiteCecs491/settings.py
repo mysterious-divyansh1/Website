@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'website.apps.WebsiteConfig',
+    'Website.apps.WebsiteAppConfig',
     'django_cleanup',
     'crispy_forms',
     'social_django',

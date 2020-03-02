@@ -9,7 +9,10 @@
           <div class="card-body">
             <h5 class="card-title text-center">Create an account</h5>
               {% if form.errors %}
-                <p>Login failed.</p>
+                <p>Login failed.<br>
+                   {{ form.errors }}
+                </p>
+
               {% endif %}
 
               <form method="post" action="{% url 'register' %}">
