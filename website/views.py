@@ -113,7 +113,7 @@ class BookmarkView(View):
             account = Account.objects.get(user=request.user)
             for bookmark in account.bookmarks.all():
                 bookmarks.append(bookmark)
-            return render(request, self.template_name, {'bookmarks'})
+            return render(request, self.template_name, {'bookmarks': bookmarks})
         return redirect('index')
 
     def post(self, request):

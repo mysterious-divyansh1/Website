@@ -180,7 +180,7 @@
       <workItem from="1582523662610" duration="21005000" />
       <workItem from="1582572289754" duration="2777000" />
       <workItem from="1582575499668" duration="7773000" />
-      <workItem from="1583159810325" duration="5191000" />
+      <workItem from="1583159810325" duration="7578000" />
     </task>
     <servers />
   </component>
@@ -264,16 +264,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1185" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582533041997" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Website/views.py</url>
-          <line>115</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
