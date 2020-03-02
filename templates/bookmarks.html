@@ -1,0 +1,22 @@
+{% extends 'main.html' %}
+{% block content %}
+    <div class="container">
+        <h1>Bookmarks</h1>
+        <ul class="row">
+            <div class="list-group col-9">
+                {% for entry in bookmarks %}
+                    <br>
+                    <!-- read/unread switch -->
+                    <a data-toggle="popover" data-html="true" data-trigger="hover" data-content="Source: <b>BBC</b> <br>Bias: <font color='blue'>Left-Center Bias</font><br>Factual Reporting: <font color='green'>High</font><br>" href="{{entry.link}}" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">{{entry.title}}</h5>
+                          <small>{{entry.published}}</small>
+                        </div>
+                     <p class="mb-1">
+                            {{entry.summary}}<br>
+                        </p>
+                    </a>
+                {% endfor %}
+            </div>
+    </div>
+{% endblock %}
