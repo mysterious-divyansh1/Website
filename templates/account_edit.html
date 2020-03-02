@@ -26,9 +26,9 @@
 			<hr>
 			<h3 style="text-align: center">Account Settings</h3>
 			<hr>
-			{% if request.user.account.avatar.url %}
+			{% if request.user.account.avatar %}
                 <!--<img src="media/{{ user.avatar }}" class='card-img-top' alt="{{ user.first_name }}.jpg">-->
-                <img class="profile-pic" src="{{request.user.account.avatar.url}}" >
+               <img class="profile-pic" src="{{request.user.account.avatar.url}}" >
             {% endif %}
 
 
@@ -52,7 +52,11 @@
                 <hr>
                 <br>
                 <div class="row">
+                {% if form.avatar %}
                 <p>Profile Picture: {{ form.avatar }}</p>
+                {% else %}
+                <p>Profile Picture:</p>
+                {% endif %}
                 </div>
 
 

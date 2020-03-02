@@ -17,7 +17,7 @@
                      <p class="mb-1">
 
                             {{entry.summary}}<br>
-                            <form action="{% url 'bookmark' %}" method="post">
+                            <form action="{% url 'bookmarks' %}" method="post">
                             {% csrf_token %}
                             {% with entry.link as link %}
                             {% if user.is_authenticated %}
