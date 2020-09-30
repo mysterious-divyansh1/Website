@@ -1,7 +1,7 @@
-Project Validator
+Project Validator - An Amazing Project
 =================
 
-Project Validator is a news aggregator that empowers modern readers to stay credibly informed in an age rife with disinformation. By tracking publisher credibility and article contents through machine learning, Validator is the single solution for agenda free, ad-free, honest information.
+Project Validator is a news aggregator that empowers modern readers to stay credibly informed in an age rife with disinformation. By tracking publisher credibility and article contents through machine learning, Validator is the single solution for agenda-free, ad-free, honest information.
 
 
 Features
